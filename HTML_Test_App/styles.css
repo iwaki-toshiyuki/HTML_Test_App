@@ -1,0 +1,59 @@
+footer {
+    font-size: 14px;
+    color: gray;
+}
+
+body {
+    text-align: center;
+    padding: 16px;
+    background-image: url('./image/background.png');
+    background-size: cover;
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: gray;
+}
+
+img {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 20%;
+    margin-bottom: 16px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column; /*「display:flex」と組み合わせると縦並びにできる*/
+    align-items: center; /* 左右中央揃え */
+    gap: 40px; /* 間隔をあける */
+}
+
+.section-title {
+  border-bottom: solid 1px #383e45; /*アンダーライン */
+    color: green;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* 綺麗なマルになる。 */
+    object-fit: cover;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
